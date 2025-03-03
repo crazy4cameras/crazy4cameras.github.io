@@ -1,1 +1,59 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David H. Sunderland</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            background: white;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .left {
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        David H. Sunderland
+    </div>
+    <div class="container">
+        <div class="column left">
+            <p>David is a data professional with over 30 years of experience. He has administered Oracle and SQL Server databases, built complex data models, and performed data analytics.</p>
+        </div>
+        <div class="column right">
+            <h3>Personal Reading List</h3>
+            <ul>
+                <li><strong>Grendel</strong> by John Gardner</li>
+                <li><strong>The Raven Tower</strong> by Ann Leckie</li>
+                <li><strong>The Artist's Way</strong> by Julia Cameron</li>
+                <li><strong>On Writing Well</strong> by William Zinsser</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
